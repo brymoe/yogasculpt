@@ -1255,9 +1255,17 @@ iframe {
 /* ==========================================================================
   14. Contact Us
   ========================================================================== */
-.contact-us h3 {
-  font-size: 36px;
-  margin-bottom: 45px;
+.contact-us h2 {
+  font-size: 46px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .lines {
+  margin: auto;
+  position: relative;
+  border-top: 2px solid #61D2B4;
+  margin-top: 15px;
 }
 
 .contact-us p span {
@@ -1323,11 +1331,15 @@ footer {
 }
 
 .footer-links li a {
-  color: #fff;
+  /*color: #fff;*/
   margin-right: 15px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
+}
+
+.footer p {
+  color: #fff;
 }
 
 .footer-links li a:hover {
