@@ -53,7 +53,7 @@
                 <a class="nav-link page-scroll" href="#portfolios">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#features2">Registration</a>
+                <a class="nav-link page-scroll" href="#features2">Calendar</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contact">Contact</a>
@@ -77,7 +77,7 @@
               <a class="page-scroll" href="#portfolios">Gallery</a>
             </li>
             <li>
-              <a class="page-scroll" href="#features2">Registration</a>
+              <a class="page-scroll" href="#features2">Calendar</a>
             </li>
             <li>
               <a class="page-scroll" href="#contact">Contact</a>
@@ -305,7 +305,7 @@
     <section id="features2" class="section" data-stellar-background-ratio="0.2">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title">Registration</h2>
+          <h2 class="section-title">Calendar</h2>
           <hr class="lines">
           <p class="section-subtitle">Locate a class on the calendar and email me using the form below. <br>Class space is limited.</p>
         </div>
@@ -324,7 +324,31 @@
           <div class="row">     
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <div class="contact-us">
-                <h3>Contact Me</h3>
+                <h2>REGISTRATION</h2>
+                <hr class="lines">
+                <br>
+                <p>In order to register for a class, fill out the form to the right with your full name and 
+                the class that you would like to register for.  Once you have registered for the number of classes
+                that you would like, please use the PayPal button below to pay for your classes!</p>
+                <br>
+                <br>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <table>
+                  <tr><td><input type="hidden" name="on0" value="Class Options">Class Options</td></tr><tr><td><select name="os0">
+                    <option value="Drop-In">Drop-In $10.00 USD</option>
+                    <option value="5-Class Pack">5-Class Pack $45.00 USD</option>
+                    <option value="10-Class Pack">10-Class Pack $70.00 USD</option>
+                  </select> </td></tr>
+                  </table>
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIIQYJKoZIhvcNAQcEoIIIEjCCCA4CAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC9Y4IuiNgIlEk0eDIhXjZ5qiYdI+C1BPLXys8Z9K4rz88jdckEmit6oP4hW6kEg2TVVOwOOCzYYYRsIwiPm/mD6VYgSq8yg9iQSekHqsGEAzhAlkDFzDhBY/D5+uZhr8AjUgYg85NwaVQ1QuOAdCOQ2eo6AV4pf2/7d0ke5s4ySTELMAkGBSsOAwIaBQAwggGdBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECLM6kz27TfHkgIIBeESzBgW+tPn3ybx6cE1CrIeEMlu8V1+AxBE4ON8Gv+o/EUSwAaSTzOoGDD+d53sV75DYQhKBueNyDSgYgGqseBzOyXffcR0h9uYNxxbGwvCyQT0Qg33ZMGPsOC+++NvU+aQVIqxS/AbVRFXk4ZXsFOTCrpysu3x28pjybycaoWfZpYb2ri4ojoLR/UHK3szAx7nD9Y0MxTQTfwEVE5HNRb8AMnf3ENVRypsyLFOxfdwZfwZGhauHwsfCjRtyAhVhl76xq42F+6HzUEyXo5qdtZhpT8T28DovmV3tdDM5Ler+v96IWZrgCRMhhrUDJa1/U2Zm1YPvOOaHtevNdINYgwRQwt32BHYI7DsFDaH/PBdgHFhIyiv5Sveea4gVmRSz4DCeV3pk5A6oO7y3sQ9VUOVSK93RDlOiOPdYMUtKLY6Fmd+qXzD39exbuvLRcjaAwbOi5VHelFLfNc3xsXu20P5UyCbFxM0ruY3wThlG4R37nmGlDyxtRYCgggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xODAzMDcwMzA0NDJaMCMGCSqGSIb3DQEJBDEWBBQgKuiVhwn10oZoBQ3Xm7AcuUNm5zANBgkqhkiG9w0BAQEFAASBgCMwxtRKsX+wTtoqyhGvVzX0hsO23UssCAZk05bVniVp9dOh4xKwpFbkj1D36xTkrOEAE8wyOP9PhD2l2qg/blOc0UV5QBaocgu3oTTJ8BrTFSHnrDMfh2Iw9Xy0fj8TxmV/ChxvC308i2z7S7TTriLf6BPEFkUzIDdW5t0Zj9FQ-----END PKCS7-----
+                  ">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+                <!--
                 <div class="contact-address">
                   <p>8Petals Yoga Studio </p>
                   <p>1317 Commercial St Ste 203, Bellingham, Washington 98225</p>
@@ -334,19 +358,23 @@
                 <div class="social-icons">
                   <ul>
                     <li class="facebook"><a href="https://www.facebook.com/groups/145192729428890/"><i class="fa fa-facebook"></i></a></li>
-                    <!--
+                    
                     <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                     <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  -->
+                  
                   </ul>
                 </div>
+              -->
               </div>
-            </div>     
+            </div>    
             <div class="col-lg-6 col-sm-6 col-xs-12">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelH8pqlw8K3ovpQba3c5u4rjzVZjz_4IG6BnY5xyqrf5U3-w/viewform?embedded=true" width="550" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
               <div class="contact-block">
-                <form id="contactForm" method="POST" action="https://formspree.io/mooreb9@wwu.edu">
+
+                <!--
+                <form id="contactForm" action="https://formspree.io/mooreb9@wwu.edu" method="POST">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="form-group">
@@ -373,6 +401,7 @@
                     </div>
                   </div>            
                 </form>
+              -->
               </div>
             </div>
           </div>
